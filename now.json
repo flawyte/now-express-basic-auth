@@ -2,6 +2,7 @@
   "version": 2,
   "name": "now-basic-auth-express",
   "builds": [
+    { "src": "src/**/*.html", "use": "@now/static" },
     { "src": "index.js", "use": "@now/node-server" }
   ]
 }
