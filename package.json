@@ -1,5 +1,5 @@
 {
-  "name": "now-express-basic-auth",
+  "name": "now-basic-auth-express",
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
