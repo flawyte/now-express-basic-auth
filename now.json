@@ -1,4 +1,7 @@
 {
   "version": 2,
-  "name": "now-basic-auth-express"
+  "name": "now-basic-auth-express",
+  "builds": [
+    { "src": "index.js", "use": "@now/node-server" }
+  ]
 }
