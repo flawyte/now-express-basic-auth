@@ -1,15 +1,11 @@
+> **This repo is now outdated. If you want to add *Basic Authentication* to a Now deployment, check out the link at the bottom.**
+
 # now-express-basic-auth
 
-Reproduction of a bug on ZEIT's Now when using basic authentication to serve static files with Express.
+This goal of this repo was to demonstrate an [issue](https://github.com/zeit/now-builders/issues/263) when adding Basic Authentication to static files served via Express and hosted on [Now 2.0](https://zeit.co/now).
 
-Problem happens even if auth is disabled and we're just trying to serve static files.
-
-- Deployment URL (auth enabled) : https://now-basic-auth-express-c4ghv1vt1.now.sh/ (login : `guest` / `guest`)
-- Deployment URL (auth disabled) : https://now-basic-auth-express-dtwsi5vsx.now.sh/
+Turns out, after a small change **it's working** : https://now-basic-auth-express-b8ke3xols.now.sh/
 
 ---
 
-UPDATE :
-**It's working** : https://now-basic-auth-express-b8ke3xols.now.sh/
-
-See [index.js](index.js) to see how to implement it yourself.
+**Check out [this repo](https://github.com/flawyte/now-basic-auth) for up-to-date examples** on how to add Basic Authentication to a Now deployment with or without Express, or using a different language.
