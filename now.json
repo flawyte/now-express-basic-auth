@@ -3,9 +3,9 @@
   "name": "now-basic-auth-express",
   "builds": [
     { "src": "src/**/*.html", "use": "@now/static" },
-    { "src": "index3.js", "use": "@now/node-server" }
+    { "src": "index.js", "use": "@now/node-server" }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "index3.js" }
+    { "src": "/(.*)", "dest": "index.js" }
   ]
 }

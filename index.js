@@ -14,7 +14,7 @@ app.use(basicAuth({
   unauthorizedResponse: 'Restricted area. Please login (guest:guest).'
 }));
 
-app.use(express.static('src'));
+app.use(express.static(__dirname + '/src'));
 
 /*
  *
