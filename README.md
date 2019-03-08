@@ -6,3 +6,10 @@ Problem happens even if auth is disabled and we're just trying to serve static f
 
 - Deployment URL (auth enabled) : https://now-basic-auth-express-c4ghv1vt1.now.sh/ (login : `guest` / `guest`)
 - Deployment URL (auth disabled) : https://now-basic-auth-express-dtwsi5vsx.now.sh/
+
+---
+
+UPDATE :
+**It's working** : https://now-basic-auth-express-b8ke3xols.now.sh/
+
+See [index.js](index.js) to see how to implement it yourself.
