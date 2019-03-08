@@ -1,5 +1,6 @@
 const express = require('express');
 const basicAuth = require('express-basic-auth');
+const serveStatic = require('./index2-serve-static');
 
 /*
  *
@@ -14,7 +15,7 @@ app.use(basicAuth({
   unauthorizedResponse: 'Restricted area. Please login (guest:guest).'
 }));
 
-app.use(express.static('src'));
+app.use(serveStatic(__dirname + '/src'));
 
 /*
  *
