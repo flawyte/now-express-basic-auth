@@ -1,4 +1,4 @@
-> **This repo is now outdated. If you want to add *Basic Authentication* to a Now deployment, check out the link at the bottom.**
+> **⚠️ This repo is now outdated. If you want to add *Basic Authentication* to a Now deployment, check out the link at the bottom.**
 
 # now-express-basic-auth
 
@@ -8,4 +8,4 @@ Turns out, after a small change **it's working** : https://now-basic-auth-expres
 
 ---
 
-**Check out [this repo](https://github.com/flawyte/now-basic-auth) for up-to-date examples** on how to add Basic Authentication to a Now deployment with or without Express, or using a different language.
+**Check out [this repo](https://github.com/flawyte/now-basic-auth) for up-to-date examples** on how to add Basic Authentication to a Now deployment **with or without Express**, or using a different language.
